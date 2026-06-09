@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #4caf50;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+button:hover {
+  background: #43a047;
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filters button {
+  flex: 1;
+  background: #2196f3;
+}
+
+.filters button:hover {
+  background: #1976d2;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8faff;
+  border-left: 5px solid #4caf50;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.expense-item:hover {
+  transform: scale(1.02);
+}
+
+.category-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.category-buttons button {
+  flex: 1;
+  background: #e3f2fd;
+}
+
+.category-buttons .active {
+  background: #4caf50;
+  color: white;
+}
+
+button:disabled {
+  background: gray;
+}
